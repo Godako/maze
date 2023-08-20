@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/labyrinth.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Script-code games</title>
+</head>
+
+<body class="game-container">
+
+    <div class="container game-container">
+        <h3>The red dot or try to reach the yellow dot.</h3>
+        <h3>You can move with the keyboard arrows or with the buttons below.</h3>
+        <canvas id="game-room" width="800px" height="800x">
+        </canvas>
+        <div class="row game-container">
+            <div class="col game-container"></div>
+            <button class="col h3 btn btn-dark" onclick="window.operator.drawGame(38)">↑</button>
+            <div class="col game-container"></div>
+        </div>
+        <div class="row game-container">
+            <button class="col btn btn-dark" onclick="window.operator.drawGame(37)">←</button>
+            <button class="col btn btn-dark" onclick="window.operator.drawGame(40)">↓</button>
+            <button class="col btn btn-dark" onclick="window.operator.drawGame(39)">→</button>
+        </div>
+
+        <div class="row game-container">
+
+            <div class="col text-center game-container">
+                <button class="btn btn-dark" onclick=window.operator.generateMaze()>Generate new maze</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+
+</html>

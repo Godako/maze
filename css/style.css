@@ -1,0 +1,84 @@
+div {
+    background-color: linen;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+
+canvas {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.game-container {
+    background-color: lightseagreen;
+}
+
+.game-image {
+    max-width: 50%;
+    height: auto;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+input.odd {
+    background-color: lightgrey;
+}
+
+input.even {
+    background-color: whitesmoke;
+}
+
+input.red {
+    background-color: lightcoral !important;
+}
+
+.border-5 {
+    border-width: 5px !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+    input {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .border-5 {
+        border-width: 4px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    input {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .border-5 {
+        border-width: 4px !important;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .container {
+        max-width: 50%;
+        height: auto;
+    }
+}
